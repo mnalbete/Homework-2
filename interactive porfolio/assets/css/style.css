@@ -62,7 +62,6 @@ a {
   
   text-transform: uppercase;
   color: #445877;
-  border-right: #445877 solid;
 }
 
 /* about me area */
@@ -72,9 +71,14 @@ a {
 }
 
 .information {
+  border-width: 0 0 0 0.18em;
+  border-color: #31343d;
+  border-style: solid;
+  flex: 3;
+  padding: .2em 0 0 0.8em;
+  margin: 1em;
   display: flex;
 }
-
 
 
 
@@ -87,35 +91,20 @@ a {
 
 
 .work-place {
-    display: flex;
-    display: grid;
-    column-gap: 10px;
-    row-gap: 10px; 
-    grid-template-columns: repeat(12, 1fr);
-    grid-auto-rows: minmax(100px, 1fr);
-    padding: 5px;
-}
-.work-box1 {
-    border: 2px solid green;
-    min-height: 100px;
-    display: flex;
-    background-color: gray;
-    width: 100px;
-    height: auto;
-
-}
-.img-box {
-  position: relative;
-  font-family: Arial;
+     border-width: 0 0 0 0.18em;
+    border-color: #31343d;
+    border-style: solid;
+    flex: 3;
+    padding: .2em 0 0 0.8em;
+    margin: 1em;
 }
 
-.img-box {
+.img-box  {
   width: 100%;
   height: 150px;
 }
 
-
-.img h4 {
+div h4 {
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -125,40 +114,58 @@ a {
   padding-right: 20px;
 }
 
+.work-box1 {
+    
+  min-height: 100px;
+  display: flex;
+  background-color: gray;
+  width: 1500px;
+  height: 500px;
+  padding: 20;
+
+}
+
 .work-box2 {
-  border: 2px solid green;
+  
   min-height: 100px;
   display: flex;
   background-color: gray;
   width: 100px;
-  height: auto; 
+  height: 100px; 
 }
 
 .work-box3 {
-  border: 2px solid green;
+  
   min-height: 100px;
-  display: flex;
+  display: ;
   background-color: gray;
   width: 100px;
-  height: auto;
+  height: 100px;
 }
 
 .work-box4 {
-  border: 2px solid green;
+  
   min-height: 100px;
   display: flex;
   background-color: gray;
   width: 100px;
-  height: auto;
+  height: 100px;
 }
 
 .work-box5 {
-  border: 2px solid green;
+  
   min-height: 100px;
   display: flex;
   background-color: gray;
   width: 100px;
-  height: auto;
+  height: 100px;
 }
 
-
+.contact-me {
+  border-width: 0 0 0 0.18em;
+  border-color: #31343d;
+  border-style: solid;
+  flex: 3;
+  padding: .2em 0 0 0.8em;
+  margin: 1em;
+}
