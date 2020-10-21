@@ -107,20 +107,24 @@ a {
 
 }
 
-.item1 {
-  grid-column-start: 1;
-  grid-row-start: 1;
-  grid-row-end: 3;
-  grid-column-end: 4;
-}
-
 .img1-hero {
-  width: 1350px
+  width: 1350px;
+  position: relative;
+  border: 3px solid #92ccce;
 }
 
 .img2-hero {
   width: 650px;
   height: 400px;
+  position: relative;
+  border: 3px solid #92ccce;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-end: 4;
 }
 
 .item2 {
