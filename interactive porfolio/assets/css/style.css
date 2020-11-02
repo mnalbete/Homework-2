@@ -110,13 +110,52 @@ a {
   position: relative;
   border: 3px solid #92ccce;
 }
+.img3-hero {
+  position: relative;
+  border: 3px solid #92ccce;
+}
+.img4-hero {
+  position: relative;
+  border: 3px solid #92ccce;
+}
+.img5-hero {
+  position: relative;
+  border: 3px solid #92ccce;
+}
 
+.itemtext1 {
+  position: absolute;
+  background-color: #92ccce;
+  color: #31343d;
+}
+.itemtext2 {
+  position: absolute;
+  background-color: #92ccce;
+  color: #31343d;
+}
+.itemtext3 {
+  position: absolute;
+  background-color: #92ccce;
+  color: #31343d;
+}
+.itemtext4 {
+  position: absolute;
+  background-color: #92ccce;
+  color: #31343d;
+}
+.itemtext5 {
+  position: absolute;
+  background-color: #92ccce;
+  color: #31343d;
+}
 .item1 {
   grid-column-start: 1;
   grid-row-start: 1;
   grid-row-end: 3;
   grid-column-end: 4;
 }
+
+
 
 .item2 {
   grid-column-start: 1;
@@ -146,11 +185,17 @@ a {
   grid-column-end: 4;
 }
 
-
-
-
-
-
+.item1 div {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #92ccce;
+  color: #31343d;
+  padding-left: 20px;
+  padding-right: 20px;
+  display: inline-block;
+  
+}
 
 
 .contact-me {
@@ -158,4 +203,12 @@ a {
   border-color: #31343d;
   border-style: solid;
   margin: 1em;
+  padding-right: 4px;
+}
+
+.contact-me nav ul li a {
+  list-style-type: none;
+  display: inline-block;
+  
+  padding: 40px;
 }
