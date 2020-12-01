@@ -21,13 +21,16 @@
 }
 .jumbotron{
   background-image: url(https://www.chromethemer.com/download/hd-wallpapers/blue-technology-3840x2160.jpg);
+  position: relative;
 }
 
 .display-3 {
+  position: absolute;
+  bottom: 8px;
+  right: 40px;
   background-color: #92ccce;
   color: #31343d;
-  float: right;
-  font-size: 50px;
+  font-size: 40px;
 }
 
 .myImage {
