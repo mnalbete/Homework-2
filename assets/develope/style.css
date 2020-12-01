@@ -1,0 +1,110 @@
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #31343d;
+}
+.name {
+  color: #31343d;
+  font-size: 70px;
+  background-color: #92ccce;
+}
+.buttonbar {
+  background-color: #92ccce;
+  color: #31343d;
+  font-size: 30px;
+}
+.dropitem {
+  background-color: #31343d;
+  color: #92ccce;
+  font-size: 30px;
+}
+.jumbotron{
+  background-image: url(https://www.chromethemer.com/download/hd-wallpapers/blue-technology-3840x2160.jpg);
+}
+
+.display-3 {
+  background-color: #92ccce;
+  color: #31343d;
+  float: right;
+  font-size: 50px;
+}
+
+.myImage {
+  height: 400px;
+  width: 600px;
+}
+
+.tapsImage {
+  border: #31343d 3px;
+  border-style: solid;
+  padding-left: 0%;
+  padding-right: 0%;
+
+}
+
+.fourImage {
+  height: 500px;
+  width: 560px;
+  border: #31343d 3px;
+  border-style: solid;
+  position: relative;
+  
+}
+.imgBox {
+  position: relative;
+}
+.imgBox4{
+  position: relative;
+  padding-right: 0%;
+  padding-left: 0%;
+  padding-top: 25px;
+}
+
+.bottom-right1 {
+  position: absolute;
+  bottom: 8px;
+  right: 40px;
+  background-color: #92ccce;
+  color: #31343d;
+  font-size: 15px;
+}
+.bottom-right2 {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: #92ccce;
+  color: #31343d;
+  font-size: 10px;
+  
+}
+.bottom-right3 {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: #92ccce;
+  color: #31343d;
+  font-size: 10px;
+  
+}
+.bottom-right4 {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: #92ccce;
+  color: #31343d;
+  font-size: 10px;
+}
+.bottom-right5 {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color: #92ccce;
+  color: #31343d;
+  font-size: 10px;
+}
+
+.sideContent {
+  color: #31343d;
+  font: x-large;
+}

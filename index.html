@@ -5,128 +5,156 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/develope/style.css">
 </head>
 
 <body>
 
     <!-- header section -->
 
-    <header>
-        <h1 class="name">Mathew Albete </h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#About-me">About me</a>
-                </li>
-                <li>
-                    <a href="#Work">Work</a>
-                </li>
-                <li>
-                    <a href="#Contact-Me">Contact Me</a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com/in/mathew-albete-910b611b5/">Resume</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
-
-    <div class="image">
-        <img src="./assets/img/seattle.jpg" alt="seattle" class="main-picture">
-        <div class="text-block">
-            <h2>mnalbete</h2>
+    <nav class="navbar navbar-dark bg-dark topbar">
+        <div class="name">Mathew Albete</div>
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+            <button type="button" class="btn btn-secondary buttonbar">
+                <a href="#About_Me">About Me</a>
+            </button>
+            <button type="button" class="btn btn-secondary buttonbar">
+                <a href="#Work_History">Work</a>
+            </button>
+            <button type="button" class="btn btn-secondary buttonbar">
+                <a href="#Contact_Me">Contact Me</a>
+            </button>
+            <div class="btn-group buttonbar" role="group">
+                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle buttonbar"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resume</button>
+                <div class="dropdown-menu dropitem" aria-labelledby="btnGroupDrop1">
+                    <a class="dropdown-item dropitem"
+                        href="https://www.linkedin.com/in/mathew-albete-4109ba198/">Linkedin</a>
+                    <a class="dropdown-item dropitem" href="https://my.indeed.com/p/mathewa-wpsz7ir">Indeed</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid jumboimage">
+        <div class="container">
+            <h1 class="display-3">Never Gonna Let You Down</h1>
         </div>
     </div>
-    <!-- about about me section -->
 
-    <section id="About-Me" class="section">
-        <div class="title">
+    <aside class= "sideContent">
+        <div class="col" id="About_Me">
             <h1>About <br> Me</h1>
         </div>
-        <article class="information">
-            <img src="./assets/img/Mathew.albete.picture.jpg" alt="Mathew Albete" class="my-picture">
-            <p> Hello! My name is Mathew Naogi Kaeo Albete and I currently live in Seattle, Washington. A little history
-                about me is that I was born on the small island of Maui which if you dont know is located in Hawaii. I
-                ended up in Seattle because I wanted to move to the West coast after I finished my military carrer. I
-                was never stationed anywhere near the west coast so I am glad to be back on the west coast once again.
-                For those of you wondering I did 9 years of survice in the United States Army. Once I got out I started
-                my carreer in the food services which I have my Assosiates degree in food science. I am here in coding
-                school to learn something new and fun. I also am looking to change my carreer path so that one day I can
-                start programing my own things. This road will be long and hard but I will take on any challenge
-                whatever it may be.
-            </p>
-        </article>
-    </section>
+    </aside>
 
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="./assets/img/Mathew Albete Picture.jpg"
+                    class="rounded mx-auto d-block p-2 bd-highlight myImage" alt="Mathew Albete Selfie">
+            </div>
+            <div class="col">
+                <p> Hello! My name is Mathew Naogi Kaeo Albete and I currently live in Seattle, Washington. A little
+                    history
+                    about me is that I was born on the small island of Maui which if you dont know is located in Hawaii.
+                    I
+                    ended up in Seattle because I wanted to move to the West coast after I finished my military carrer.
+                    I
+                    was never stationed anywhere near the west coast so I am glad to be back on the west coast once
+                    again.
+                    For those of you wondering I did 9 years of survice in the United States Army. Once I got out I
+                    started
+                    my carreer in the food services which I have my Assosiates degree in food science. I am here in
+                    coding
+                    school to learn something new and fun. I also am looking to change my carreer path so that one day I
+                    can
+                    start programing my own things. This road will be long and hard but I will take on any challenge
+                    whatever it may be.
+                </p>
+            </div>
+        </div>
+    </div>
 
-
-    <!-- work section -->
-
-
-    <section class="section">
-        <div id="Work" class="title">
+    <aside class= "sideContent" >
+        <div class="col" id="Work_History">
             <h1>Work</h1>
         </div>
-
-        <div class="grid-container">
-            <div class="item1">
-                <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi_5azP7MTsAhUQ7J4KHT9mCK0QPAgI">
-                    <img src="./assets/img/Maui surf.jpg" width="1350px" title="surf report" class="img1-hero">
-                    <div class="itemtext1">Surf Report</div>
+    </aside>
+    <div class="container">
+        <div class="row">
+            <div class="col imgBox">
+                <a href="https://lauragwendolynburch.github.io/Pub-Lish/">
+                    <img src="./assets/img/taps.jpg" class="rounded img-fluid tapsImage " alt="Responsive image">
+                    <div class="bottom-right1">Pub-Lish</div>
                 </a>
             </div>
-            <div class="item2">
-                <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi_5azP7MTsAhUQ7J4KHT9mCK0QPAgI">
-                    <img src="./assets/img/LED-Wall.png" width="650px" height="400px" class="img2-hero">
-                    <div class="itemtext2">LED<br>Wall</div>
-                </a>
-            </div>
-            <div class="item3">
-                <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi_5azP7MTsAhUQ7J4KHT9mCK0QPAgI">
-                    <img src="./assets/img/calculator.jpg" width="650px" height="400px" class="img3-hero">
-                    <div class="itemtext3">Calculator</div>
-                </a>
-
-            </div>
-            <div class="item4">
-                <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi_5azP7MTsAhUQ7J4KHT9mCK0QPAgI">
-                    <img src="./assets/img/pastel puzzle.jpg" width="650px" height="400px" class="img4-hero">
-                    <div class="itemtext4">Pastel<br> Puzzle</div>
-                </a>
-            </div>
-            <div class="item5">
-                <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwi_5azP7MTsAhUQ7J4KHT9mCK0QPAgI">
-                    <img src="./assets/img/run buddy.jpg" width="650px" height="400px" class="img5-hero">
-                    <div class="itemtext5">Run Buddy</div>
-                </a>
-
-            </div>
-
-        </div>
-    </section>
-
-
-
-    <!-- contact me section -->
-    <section class="section">
-        <div id="Contact-Me" class="title">
-            <h1>Contact<br>Me</h1>
         </div>
 
-        <footer class="contact-me">
-            <nav>
-                <ul>
-                    <li>
-                        <a href="425-248-8227">425-248-8227</a>
-                        <a href="Mnalbete@uw.edu">Mnalbete@uw.edu</a>
-                        <a href="https://github.com/">GitHub</a>
-                        <a href="https://www.spotify.com/us/">Spotify</a>
-                    </li>
-                </ul>
-            </nav>
-        </footer>
-    </section>
+        <div class="row">
+            <div class="col imgBox4">
+                <a href="https://mnalbete.github.io/Whats-my-weather-/">
+                    <img src="./assets/img/weather.jpg" class="rounded float-left fourImage" alt="Weather Search">
+                    <div class="bottom-right2">Weather Search</div>
+                </a>
+            </div>
+            <div class="col imgBox4 ">
+                <a href="https://mnalbete.github.io/timetoschedulestuff/">
+                    <img src="./assets/img/schedule.jpg" class="rounded float-right fourImage" alt="Day Scheduler">
+                    <div class="bottom-right3">Day Scheduler</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col imgBox4">
+                <a href="https://mnalbete.github.io/passwordgenerator/">
+                    <img src="./assets/img/password.jpg" class="rounded float-left fourImage" alt="Password Genorator">
+                    <div class="bottom-right4">Password Genorator</div>
+                </a>
+            </div>
+            <div class="col imgBox4">
+                <a href="https://mnalbete.github.io/Shadows-of-Valinor/.">
+                    <img src="./assets/img/chess.jpg" class="rounded float-right fourImage" alt="Shadows of Valinor">
+                    <div class="bottom-right5">Shadows of Valinor</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <aside class= "sideContent">
+        <div class="col" id="Contact_Me">
+            <h1>Contact Me</h1>
+        </div>
+    </aside>
+    <div>
+        <ul class="d-flex justify-content-around">
+            <li class="list-group-item">
+                <a href="425-248-8227">425-248-8227</a>
+            </li>
+            <li class="list-group-item">
+                <a href="NaogiKaeo@gmail.com">NaogiKaeo@gmail.com</a>
+            </li>
+            <li class="list-group-item">
+                <a href="https://github.com/mnalbete">Github</a>
+            </li>
+        </ul>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./assets/develope/script.js"></script>
 
 </body>
 
